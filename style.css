@@ -217,7 +217,11 @@ body {
 
 .announcement {
   border-bottom: 1px solid var(--background-gray);
-  padding: 6px;
+  padding: 10px;
+}
+
+.announcement:last-of-type {
+  border-bottom: none;
 }
 
 .announcement h4 {
